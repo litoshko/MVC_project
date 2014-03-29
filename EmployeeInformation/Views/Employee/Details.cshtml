@@ -1,0 +1,57 @@
+﻿@model EmployeeInformation.Models.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Employee</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EmpName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EmpName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EmpLastName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EmpLastName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EmpAddress)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EmpAddress)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.stateobj.StateName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.stateobj.StateName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.cityobj.CityName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.cityobj.CityName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.departmentobj.DepartmentName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.departmentobj.DepartmentName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.EmployeeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
