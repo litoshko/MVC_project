@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EmployeeInformation.Controllers
+namespace Photoalbum.Controllers
 {
     public class HomeController : Controller
     {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EmployeeInformation;
-using EmployeeInformation.Controllers;
+using Photoalbum;
+using Photoalbum.Controllers;
 
-namespace EmployeeInformation.Tests.Controllers
+namespace Photoalbum.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

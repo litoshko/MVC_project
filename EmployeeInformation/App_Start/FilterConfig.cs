@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace EmployeeInformation
+namespace Photoalbum
 {
     public class FilterConfig
     {

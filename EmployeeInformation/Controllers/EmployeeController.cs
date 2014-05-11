@@ -5,13 +5,13 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using EmployeeInformation.Models;
+using Photoalbum.Models;
 
-namespace EmployeeInformation.Controllers
+namespace Photoalbum.Controllers
 {
     public class EmployeeController : Controller
     {
-        private EmployeeInformationContext db = new EmployeeInformationContext();
+        private PhotoalbumContext db = new PhotoalbumContext();
 
         //
         // GET: /Employee/

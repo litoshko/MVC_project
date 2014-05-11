@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity;
 
-namespace EmployeeInformation.Models
+namespace Photoalbum.Models
 {
-    public class EmployeeInformationContext : DbContext
+    public class PhotoalbumContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -11,9 +11,9 @@ namespace EmployeeInformation.Models
         // code to the Application_Start method in your Global.asax file.
         // Note: this will destroy and re-create your database with every model change.
         // 
-        // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<EmployeeInformation.Models.EmployeeInformationContext>());
+        // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<Photoalbum.Models.PhotoalbumContext>());
 
-        public EmployeeInformationContext() : base("name=EmployeeInformationContext")
+        public PhotoalbumContext() : base("name=PhotoalbumContext")
         {
         }
 

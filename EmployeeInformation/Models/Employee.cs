@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EmployeeInformation.Models
+namespace Photoalbum.Models
 {
     public class Employee
     {

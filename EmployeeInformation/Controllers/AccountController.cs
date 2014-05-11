@@ -8,10 +8,10 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using EmployeeInformation.Filters;
-using EmployeeInformation.Models;
+using Photoalbum.Filters;
+using Photoalbum.Models;
 
-namespace EmployeeInformation.Controllers
+namespace Photoalbum.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]

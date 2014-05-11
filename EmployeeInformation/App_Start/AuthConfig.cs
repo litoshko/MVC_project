@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
-using EmployeeInformation.Models;
+using Photoalbum.Models;
 
-namespace EmployeeInformation
+namespace Photoalbum
 {
     public static class AuthConfig
     {
